@@ -29,7 +29,7 @@
     "prepare": "husky install",
     "pre-commit": "lint-staged",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -o docs-build -s ./stories/assets"
   },
   "eslintConfig": {
     "extends": [

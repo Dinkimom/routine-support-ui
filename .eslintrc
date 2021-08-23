@@ -14,7 +14,7 @@
     "plugin:react/recommended", // Uses the recommended rules from @eslint-plugin-react
     "plugin:@typescript-eslint/recommended" // Uses the recommended rules from @typescript-eslint/eslint-plugin
   ],
-  "plugins": ["import"],
+  "plugins": ["import", "prettier", "unused-imports"],
   "rules": {
     "react/prop-types": 0,
     "@typescript-eslint/explicit-module-boundary-types": "off",
@@ -37,6 +37,7 @@
         }
       }
     ],
-    "react/no-unescaped-entities": 0 
+    "prettier/prettier": "error",
+		"unused-imports/no-unused-imports": "error"
   }
 }

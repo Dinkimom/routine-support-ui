@@ -26,6 +26,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint --debug src/",
     "lint:write": "eslint --debug src/ --fix",
+    "stylelint": "stylelint src/** --max-warnings",
+    "stylelint:write": "stylelint src/** --fix --max-warnings",
     "prepare": "husky install",
     "pre-commit": "lint-staged",
     "storybook": "start-storybook -p 6006 -s public",
